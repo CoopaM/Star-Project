@@ -3,6 +3,7 @@
 
 ## Repository Contents
 - [Data](https://github.com/CoopaM/Star-Project/tree/main/Data)
+- [Graphs](https://github.com/CoopaM/Star-Project/tree/main/Graphs)
 - [Notebooks](https://github.com/CoopaM/Star-Project/tree/main/Notebooks)
 - [gitignore](https://github.com/CoopaM/Star-Project/blob/main/.gitignore)
 - [FinalNotebook.ipynb](https://github.com/CoopaM/Star-Project/blob/main/FinalNotebook.ipynb)
@@ -28,7 +29,7 @@ filled the nulls in the categorical columns with 'none'.
 
 ## Results
 We chose to use a tree model because we believe there is interaction between the features and this model will automatically take care of that for us. We ran a grid search to try to get the best parameters to see what would make our model the best it could be.
-![]()
+![](https://github.com/CoopaM/Star-Project/blob/main/Graphs/confusion.png)
 This graph represents a confusionn matrix that shows all of our type 1 and type 2 error probabilities.
 
 ## Conclusion
@@ -48,6 +49,8 @@ In the future, we are planning on:
 |   ├── hipparcos-voidmain.csv  
 |   ├── HoldoutData.csv  
 |   └── UsableData.csv
+├── Graphs
+|   └── confusion.png
 ├── Notebooks  
 |   └── Draft Notebook.ipynb
 ├── .gitignore 
